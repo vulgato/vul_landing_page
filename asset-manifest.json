@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vulgato_landing_page/static/css/main.f855e6bc.css",
+    "main.js": "/vulgato_landing_page/static/js/main.8a390d22.js",
+    "static/js/787.e0ee1374.chunk.js": "/vulgato_landing_page/static/js/787.e0ee1374.chunk.js",
+    "static/media/vulgato.obj": "/vulgato_landing_page/static/media/vulgato.d6f820f031c4004563cd.obj",
+    "static/media/logo.svg": "/vulgato_landing_page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/vulgato_landing_page/index.html",
+    "main.f855e6bc.css.map": "/vulgato_landing_page/static/css/main.f855e6bc.css.map",
+    "main.8a390d22.js.map": "/vulgato_landing_page/static/js/main.8a390d22.js.map",
+    "787.e0ee1374.chunk.js.map": "/vulgato_landing_page/static/js/787.e0ee1374.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8a390d22.js"
+  ]
+}
