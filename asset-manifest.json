@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/vul_landing_page/static/css/main.f855e6bc.css",
-    "main.js": "/vul_landing_page/static/js/main.6ac50974.js",
+    "main.css": "/vul_landing_page/static/css/main.7b16b41f.css",
+    "main.js": "/vul_landing_page/static/js/main.543e218e.js",
     "static/js/787.e0ee1374.chunk.js": "/vul_landing_page/static/js/787.e0ee1374.chunk.js",
     "static/media/vulgato.obj": "/vul_landing_page/static/media/vulgato.d6f820f031c4004563cd.obj",
-    "static/media/logo.svg": "/vul_landing_page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/vul_landing_page/index.html",
-    "main.f855e6bc.css.map": "/vul_landing_page/static/css/main.f855e6bc.css.map",
-    "main.6ac50974.js.map": "/vul_landing_page/static/js/main.6ac50974.js.map",
+    "main.7b16b41f.css.map": "/vul_landing_page/static/css/main.7b16b41f.css.map",
+    "main.543e218e.js.map": "/vul_landing_page/static/js/main.543e218e.js.map",
     "787.e0ee1374.chunk.js.map": "/vul_landing_page/static/js/787.e0ee1374.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.6ac50974.js"
+    "static/css/main.7b16b41f.css",
+    "static/js/main.543e218e.js"
   ]
 }
