@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vul_landing_page/static/css/main.7b16b41f.css",
-    "main.js": "/vul_landing_page/static/js/main.543e218e.js",
+    "main.css": "/vul_landing_page/static/css/main.6ab17585.css",
+    "main.js": "/vul_landing_page/static/js/main.321a57b8.js",
     "static/js/787.e0ee1374.chunk.js": "/vul_landing_page/static/js/787.e0ee1374.chunk.js",
     "static/media/vulgato.obj": "/vul_landing_page/static/media/vulgato.d6f820f031c4004563cd.obj",
     "index.html": "/vul_landing_page/index.html",
-    "main.7b16b41f.css.map": "/vul_landing_page/static/css/main.7b16b41f.css.map",
-    "main.543e218e.js.map": "/vul_landing_page/static/js/main.543e218e.js.map",
+    "main.6ab17585.css.map": "/vul_landing_page/static/css/main.6ab17585.css.map",
+    "main.321a57b8.js.map": "/vul_landing_page/static/js/main.321a57b8.js.map",
     "787.e0ee1374.chunk.js.map": "/vul_landing_page/static/js/787.e0ee1374.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b16b41f.css",
-    "static/js/main.543e218e.js"
+    "static/css/main.6ab17585.css",
+    "static/js/main.321a57b8.js"
   ]
 }
