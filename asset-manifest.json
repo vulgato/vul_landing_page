@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/vul_landing_page/static/css/main.40d939b0.css",
-    "main.js": "/vul_landing_page/static/js/main.9b617910.js",
+    "main.js": "/vul_landing_page/static/js/main.da7bdf6d.js",
     "static/js/787.e0ee1374.chunk.js": "/vul_landing_page/static/js/787.e0ee1374.chunk.js",
     "static/media/vulgato.obj": "/vul_landing_page/static/media/vulgato.d6f820f031c4004563cd.obj",
-    "static/media/VULGATO_ARM.svg": "/vul_landing_page/static/media/VULGATO_ARM.67298386b406d22cd261d28dc3031945.svg",
+    "static/media/VULGATO_ARM.svg": "/vul_landing_page/static/media/VULGATO_ARM.296e201424de5b32b2c99b338bd9bcac.svg",
     "static/media/VULGATO_SCAN.svg": "/vul_landing_page/static/media/VULGATO_SCAN.f559943e3d1a97ac575f1b2d8d6e65cb.svg",
     "static/media/VULGATO_TYPE_LG.svg": "/vul_landing_page/static/media/VULGATO_TYPE_LG.260a3eddbf6684b6211da6aacf76edcb.svg",
     "index.html": "/vul_landing_page/index.html",
     "static/media/VULGATO_SWIPE.svg": "/vul_landing_page/static/media/VULGATO_SWIPE.05b88af29846f1f2482b84f08ce1181b.svg",
     "main.40d939b0.css.map": "/vul_landing_page/static/css/main.40d939b0.css.map",
-    "main.9b617910.js.map": "/vul_landing_page/static/js/main.9b617910.js.map",
+    "main.da7bdf6d.js.map": "/vul_landing_page/static/js/main.da7bdf6d.js.map",
     "787.e0ee1374.chunk.js.map": "/vul_landing_page/static/js/787.e0ee1374.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40d939b0.css",
-    "static/js/main.9b617910.js"
+    "static/js/main.da7bdf6d.js"
   ]
 }
