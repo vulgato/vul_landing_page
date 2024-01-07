@@ -1,21 +1,21 @@
 import React, { Suspense } from 'react';
-import { Canvas, useFrame, useThree, useLoader } from 'react-three-fiber';
-import { MeshStandardMaterial } from 'three';
+//import { MeshStandardMaterial } from '@react-three/fiber';
+import * as THREE from 'three'
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 import { OrbitControls} from '@react-three/drei';
 import model from '../assets/vulgato.obj';
-
+import { Canvas } from '@react-three/fiber';
+import { useFrame, useLoader } from '@react-three/fiber';
 
 function Model({ url }) {
   const obj = useLoader(OBJLoader, url);
   const mesh = React.useRef();
 
-  // Apply the material to all children of the model.
   React.useEffect(() => {
     if (obj) {
       obj.traverse((child) => {
         if (child.isMesh) {
-          child.material = new MeshStandardMaterial({ color: 0x7F47DD });
+          child.material = new THREE.MeshStandardMaterial({ color: 0x7F47DD });
         }
       });
       mesh.current = obj;
