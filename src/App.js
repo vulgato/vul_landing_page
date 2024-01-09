@@ -102,7 +102,8 @@ function App() {
         <div className='child'>
           <h3>Sign up for Beta</h3>
           <div className='signup-container'> 
-            <input  className='email' 
+            <input 
+                    className='email' 
                     type="text" 
                     placeholder="Email" 
                     value={email} 
