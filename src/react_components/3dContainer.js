@@ -15,7 +15,7 @@ function Model({ url }) {
     if (obj) {
       obj.traverse((child) => {
         if (child.isMesh) {
-          child.material = new THREE.MeshStandardMaterial({ color: 0x7F47DD });
+          child.material = new THREE.MeshStandardMaterial({ color: 0x2d6cea });
         }
       });
       mesh.current = obj;
@@ -34,7 +34,7 @@ function Model({ url }) {
 const ThreeDContainer = ({className}) => {
     return (
         <div className={className}>
-            <Canvas camera={{ position: [5, 2, 0] }}>
+            <Canvas camera={{ position: [5, 2, 0] }} style={{width : 'fit-content'}}>
               <ambientLight intensity={2.8} />
               <Suspense fallback={null}>
                 <Model url={model} />

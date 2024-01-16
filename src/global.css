@@ -1,6 +1,15 @@
 :root { 
-    --accent-primary: #7F47DD;
+    /* --accent-primary: #7F47DD;
     --light-0: #D8E0FB;
     --dark-0: #0E121F;
-    --dark-2: #1A1F36;
+    --dark-2: #1A1F36;  */
+
+    --accent-primary: #2d6cea;
+    --accent-secondary: #f4166b;
+    --light-0: #1a1F36;
+    --dark-0: #e4eaf7;
+    --dark-2: #c5d0e3;
+    --dark-1: #99b0d6;
+
+
 }

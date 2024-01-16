@@ -36,7 +36,7 @@
 }
 
 .App h3 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 1vh;
 }
 
@@ -45,6 +45,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0.2vh;
   font-weight: normal;
+  width:fit-content;
+}
+
+.logo3d { 
+  width: fit-content;
 }
 
 .App p { 
@@ -56,7 +61,7 @@
 .App-header .child{ 
   scroll-snap-align: start;
   margin-bottom: 50vh;
-  padding-top: 24vh;
+  padding-top: 5vh;
 }
 
 .App-link {
@@ -68,8 +73,18 @@
   min-height: 4vh;
 } 
 
+.vulgato-swipe-container { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .vulgato-swipe { 
   width: calc((10px + 2vmin));
+  margin: auto;
+  justify-content: center;
   z-index: 1;
   position: absolute;
   top: 96vh;
@@ -102,8 +117,8 @@
 
 .btn {
   display: inline-block;
-  height: 5vh;
-  width: calc(40px + 8vmin);
+  width: fit-content;
+  padding: 0.5vw;
   font-size: calc((10px + 2vmin)*0.7);
   text-align: center;
   text-decoration: none;
@@ -115,6 +130,15 @@
   transition: background-color 0.3s ease;
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-vulgato-swipe{ 
+  z-index: 1;
+  top: 91.5vh;
+  position: absolute;
+  animation: bobbing 2s infinite;
+  font-size: calc((10px + 2vmin)*0.4);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .btn:hover {
@@ -150,16 +174,20 @@
 }
 
 .vulgato-arm { 
-  width: calc((20px + 4vmin)*5.5); /* minimum + relative sizing */
-  height: calc((20px + 4vmin)*5.5); /* minimum + relative sizing */
+  width: calc((20px + 4vmin)*3.5); /* minimum + relative sizing */
+  height: calc((20px + 4vmin)*3.5); /* minimum + relative sizing */
+  /* width: calc((20px + 4vmin)*5.5); /* minimum + relative sizing */
+  /* height: calc((20px + 4vmin)*5.5); /*minimum + relative sizing */ 
 }
+
+
 
 @keyframes scan {
   0% {
     color: var(--dark-0);
   }
   50% {
-    color: var(--accent-primary);
+    color: var(--accent-secondary);
   }
   100% {
     color: var(--dark-0);
@@ -168,6 +196,9 @@
 
 .vulgato-container {
   position: relative;
+  padding-top: 27vh ;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .vulgato-scan {
@@ -177,7 +208,134 @@
   top: calc((20px + 4vmin)*1.61);
   margin-left: calc((20px + 4vmin)*-2.85);
   animation: scan 2s infinite;
+  color: var(--dark-0);
 }
 
-.vulgato-scan {
+.child-how-it-works { 
+  padding-top: 12vh !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  direction: row;
+  width: 100rem;
+}
+
+.child-how-it-works h3 { 
+  padding:0;
+  margin: 0;
+  font-size: calc((10px + 2vmin));
+}
+
+.child-how-it-works h4 { 
+  padding:0;
+  font-size: calc((10px + 2vmin)*0.8);
+}
+
+.child-how-it-works p { 
+  padding:0;
+  font-size: calc((10px + 2vmin)*0.7);
+}
+
+.text-container {
+  width: 50vw;
+}
+
+.vulgato-prompt { 
+  width: calc((20px + 4vmin)*13.5); /* minimum + relative sizing */
+  height: calc((20px + 4vmin)*13.5); /* minimum + relative sizing */ 
+  animation: fadeIn 2s;
+  padding-left: 5vw;
+}
+
+.vulgato-response { 
+  width: calc((20px + 4vmin)*12.5); /* minimum + relative sizing */
+  height: calc((20px + 4vmin)*12.5); /* minimum + relative sizing */ 
+  position: absolute;
+  top: calc((20px + 4vmin)*1.22);
+  margin-left: calc((20px + 4vmin)*-14.45);
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  padding-left: 5vw;
+
+}
+
+.prompt-container { 
+  position: relative;
+}
+
+.slide1{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1000px) {
+  .slide1{ 
+    flex-direction: column;
+  }
+
+  .child-how-it-works { 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center !important;
+    width: 0rem;
+  }
+
+  .btn { 
+    height: fit-content;
+    font-size: calc((10px + 2vmin)*0.4);
+    width: fit-content;
+    padding: 2vh;
+    border-radius: 2vh;
+  }
+
+  .btn-vulgato-swipe { 
+    top: 89vh;
+  }
+
+  .vulgato-prompt { 
+    width: calc((20px + 4vmin)*10); /* minimum + relative sizing */
+    height: calc((20px + 4vmin)*10); /* minimum + relative sizing */ 
+  }
+
+  .vulgato-response { 
+    width: calc((20px + 4vmin)*9); /* minimum + relative sizing */
+    height: calc((20px + 4vmin)*9); /* minimum + relative sizing */ 
+    top: calc((20px + 4vmin)*1.22);
+    margin-left: calc((20px + 4vmin)*-10.20);
+    position: absolute;
+  }
+
+  .vulgato-arm { 
+    display: none;
+  }
+
+  .vulgato-leg { 
+    display: none;
+  }
+}
+
+.slide1Content { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.vulgato-leg { 
+  width: calc((20px + 4vmin)*5.5); /* minimum + relative sizing */
+  height: calc((20px + 4vmin)*5.5); /* minimum + relative sizing */
 }
