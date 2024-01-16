@@ -1,4 +1,7 @@
----
+name: Deployment
+
+on: [push]
+
 steps:
   - name: Checkout Repo
     uses: actions/checkout@v2
